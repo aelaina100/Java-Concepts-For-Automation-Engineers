@@ -1,4 +1,4 @@
-package A_JavaPkg;
+package A_Java_Programs_Basics;
 
 /*1- Sum up the numbers contained within the following array.
  *     2  4  5                             

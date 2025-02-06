@@ -1,4 +1,4 @@
-package A_JavaPkg;
+package A_Java_Programs_Basics;
 public class Q_enhanced_forLoops {
 	//Simply have a look at the below lines of code
 
@@ -10,6 +10,7 @@ public class Q_enhanced_forLoops {
 		{
 			System.out.println(array[i]);	
 		}
+		
 		    System.out.println("===================================================");
 		
 		//Now- Instead of the regular for loop expressed above, one can write an enhanced one:
@@ -18,6 +19,16 @@ public class Q_enhanced_forLoops {
 		{
 			System.out.println(val); // no use for array[i] as you can observe in the regular for-loop above.
 		}
+		
+		  System.out.println("===================================================");
+		  
+		//Also, look here:
+		int numbers[] = {1,2,3,4};
+		for (int value: numbers)
+		{
+			System.out.println(value);
+		}
+		
 		
 	}
 }

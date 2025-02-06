@@ -1,4 +1,4 @@
-package A_JavaPkg;
+package A_Java_Programs_Basics;
 
 // This "while" loop is the equivalent to "For" loop. One can replace another.
 public class T_forWhile {

@@ -1,4 +1,4 @@
-package A_JavaPkg;
+package A_Java_Programs_Basics;
 import org.testng.annotations.Test;
 
 public class P_basicBasics {

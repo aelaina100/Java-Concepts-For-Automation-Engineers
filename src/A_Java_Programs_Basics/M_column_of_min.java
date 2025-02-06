@@ -1,4 +1,4 @@
-package A_JavaPkg;
+package A_Java_Programs_Basics;
 //From the below matrix, for the minimum number, print out the maximum number of its associated column 
 /*  2 4 5
     3 4 7

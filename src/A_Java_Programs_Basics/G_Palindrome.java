@@ -1,4 +1,4 @@
- package A_JavaPkg;
+ package A_Java_Programs_Basics;
 // check if 'Salon' is a palindrome
 
 public class G_Palindrome {
@@ -8,7 +8,7 @@ public class G_Palindrome {
 		String reversed= "";
 		for (int i= word.length(); i>0; i--)
 		{
-			char letter= word.charAt(i-1);
+			char letter= word.charAt(i-1);   // Disallowed in some Java versions (Equating Strings with Char types)
 	    	reversed=reversed + letter;				
 		}
 		//System.out.println(reversed);

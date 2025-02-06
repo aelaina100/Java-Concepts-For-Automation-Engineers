@@ -1,4 +1,4 @@
-package A_JavaPkg;
+package A_Java_Programs_Basics;
 //  A- Create an array that holds 5 values and print them out to the screen.
 
 import org.testng.annotations.Test;
@@ -13,12 +13,12 @@ public class H_arrays {
 		numbers[2]= 22;
 		numbers[3]= 33;
 		numbers[4]= 44;
-		// Now, the only way to print out the values stored in an array, is by looping through them.
+		// Now, the only way to print out the values stored in an array (Fixed-length data structure), is by looping through them.
 		for(int i=0; i< numbers.length  ;i++)
 		{
-		   System.out.println(numbers[i]);
-		   
+		   System.out.println(numbers[i]); 
 		}
+	
 		System.out.println("######################################################################################################");
 		
 		// Another equally valid way of creating this array (and later printing out its values) is as follows:
@@ -60,7 +60,6 @@ public class H_arrays {
 					
 			}
 			
-			
 		   }
 		
 		// At which index is the value of 'Omar' stored at ? 
@@ -88,8 +87,9 @@ public class H_arrays {
 		} }
 	
 		
-		//Extremely important (July 8th,2024)==> Create a string array and convert its elements to small/capital chacters and trim all spaces for all elements.
+		//Extremely important (July 8th,2024)==> Create a string array and convert its elements to small/capital characters and trim all spaces for all elements.
         	//Tip: Can only be done by converting the created array into an arraylist and then applying stream operations on the converted array list.
+               // can also be done with regular Java code
 			
 	
 

@@ -1,6 +1,6 @@
-package A_JavaPkg;
+package A_Java_Programs_Basics;
 
-public class C_basics2 {
+public class C_1basics2 {
 
 	public static void main(String[] args) {
 		

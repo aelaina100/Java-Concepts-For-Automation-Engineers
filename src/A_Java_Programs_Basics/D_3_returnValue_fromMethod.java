@@ -1,4 +1,4 @@
-package A_JavaPkg;
+package A_Java_Programs_Basics;
 
 public class D_3_returnValue_fromMethod {
 	
@@ -12,7 +12,7 @@ public class D_3_returnValue_fromMethod {
 	        
 	        System.out.println(number); 
 			
-			}
+	}
 
 	private static void updateIntValue() { 
 	            int number1 =3;

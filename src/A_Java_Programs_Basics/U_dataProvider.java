@@ -1,4 +1,4 @@
-package A_JavaPkg;
+package A_Java_Programs_Basics;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 
@@ -30,6 +30,16 @@ public class U_dataProvider {
 		System.out.println("=======End of method/Testcase");
 		System.out.println("");
 	}
-
+	
+	@DataProvider // to do later
+	public String[] getData2()
+	{
+		String object[]= new String[2];
+		
+		object[0] = "Strike";
+		object[1] = "Counter";
+	    
+	    return object; 
+	}
 
 }

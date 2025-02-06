@@ -1,4 +1,4 @@
-package A_JavaPkg;
+package A_Java_Programs_Basics;
 
 /* Create the array     1 2 11 7
                         3 4 12 8
@@ -20,11 +20,12 @@ public class I_Multi_dim_arrays {
 		y[2][1]= 6;
 		y[2][2]= 13;
 		y[2][3]= 9;   
- //int y[][]= {{1,2,11,7},{3,4,12,8},{5,6,13,9}};  // is the common sence way.
+
+ //int y[][]= {{1,2,11,7},{3,4,12,8},{5,6,13,9}};  // is the common sense way.
 		
 		
 // Display these numbers
-	for ( int i=0; i<y.length ; i++)   // i=0  i=1  i=2          .length is only for strings and arrays(Unidimentional only)
+	for (int i=0; i<y.length ; i++)   // i=0  i=1  i=2          .length is only for strings and arrays(Unidimentional only)
 	{
 		for (int j=0; j<y[i].length ; j++ )   // j=0   j=1  j=2  j=4
 		{

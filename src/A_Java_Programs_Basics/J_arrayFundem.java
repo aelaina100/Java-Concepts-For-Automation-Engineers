@@ -1,4 +1,4 @@
-package A_JavaPkg;
+package A_Java_Programs_Basics;
 // 1- Sum up the numbers contained within the following array.
 // 2- print out the number at the index of '3'
 // 3- print out the index, at which number 5 is at

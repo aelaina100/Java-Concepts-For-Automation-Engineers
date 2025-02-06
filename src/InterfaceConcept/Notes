@@ -2,14 +2,17 @@
 	There are 2 types of .java files:
 	
 		-    .Java Class file
-		-    .Java Interface file
+		-    .Java Interface file                   
+		
+		//Note (Feb 2nd, 2025: A class always extends/inherits from another class                    & A class implements an interface ONLY).
+		// Also:  WebDriver driver= new ChromeDriver(): // ChromeDriver is a class that implements the WebDriver interface.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------		
 For Class:             public class something        Where it has methods that are implemented [ Have curly braces and lines of code inside of them].
 For Interface:         public interface something    Where it has methods' names only          [ Neither curly brackets, nor code inside of them = abstract methods].
 -------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 When you create a .java interface file(s), then you've to create it's corresponding single .java class file where
-	inside the latter, there exists the key word 'implements' [implements interface...As opposed to 'extend' for inheritance].
+	inside the latter, there exists the key word 'implements' [implements interface...As opposed to 'extend another class' for inheritance].
 	
 		.This corresponding .Java class file can implement more than one interface at a time. For example (Line 3 below):-
 			
@@ -21,7 +24,8 @@ When you create a .java interface file(s), then you've to create it's correspond
 				
 				In contrary, a class can only inherit from one parent: Example--------->
 				
-				public class son extends Grandfather [Grandfather is the only class one can inherit]
+				public class son extends Grandfather [Grandfather is the only class one can inherit] where to inherit another class, make
+				                                      Grandfather extend that another class.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 Now, let's say you have the following line:      public class Developing implements BankingClient, DomainClient
 
@@ -33,10 +37,10 @@ Now, let's say you have the following line:      public class Developing impleme
     However; this line instead===>:
     
 	BankingClient bc= new Developing();   // Means that'bc' is an object that has an access to all unimplemented methods inside the 'BankingClient' interface ONLY and
-	                                        // also to all other methods that are present or will be created inside the 'Developing' .java class file.
+	                                       false correct this-> // also to all other methods that are present or will be created inside the 'Developing' .java class file.
 	
 	Or, this line instead===>            // Means that'dc' is an object that has an access to all unimplemented methods inside the 'DomainClient' interface ONLY and
-	DomainClient dc= new Developing();     // also to all other methods that are present or will be created inside the 'Developing' .java class file.
+	DomainClient dc= new Developing();      false correct this-> // also to all other methods that are present or will be created inside the 'Developing' .java class file.
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 CRUCIAL:  Task #1: Observe the below line of code & draw your conclusion:===>      Boxing bo= new Sport(); 

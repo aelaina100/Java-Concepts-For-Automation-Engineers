@@ -11,11 +11,11 @@ public class B_dog extends A_cat {
 		
 		
      // Below: in the case of-->
-		A_cat ob= new A_cat(); // this ignores all inheritance aspects (Hence, Only accesses methods/variables present in the cat class ONLY)
+		A_cat ob= new A_cat(); // This ignores all inheritance aspects (Hence, Only accesses methods/variables present in the cat class ONLY)
 		ob.orange();
 		
 		//SEPERATE BELOW
-		// B_dog obj= new A_cat();  // Non-valid line of code.
+		// B_dog obj= new A_cat();  // Non-valid line of code. As  B_dog is NOT an interface.
 		
 	
 	}
