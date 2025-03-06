@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="4" total="5" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-06T23:14:58 EST" name="Default suite" finished-at="2024-11-06T23:14:58 EST" duration-ms="45">
+  <suite started-at="2025-03-06T16:40:06 EST" name="Default suite" finished-at="2025-03-06T16:40:06 EST" duration-ms="86">
     <groups>
     </groups>
-    <test started-at="2024-11-06T23:14:58 EST" name="Default test" finished-at="2024-11-06T23:14:58 EST" duration-ms="45">
-      <class name="JavaPkg.interview">
-        <test-method signature="testing()[pri:0, instance:JavaPkg.interview@be35cd9]" started-at="2024-11-06T23:14:58 EST" name="testing" finished-at="2024-11-06T23:14:58 EST" duration-ms="11" status="PASS">
+    <test started-at="2025-03-06T16:40:06 EST" name="Default test" finished-at="2025-03-06T16:40:06 EST" duration-ms="86">
+      <class name="A_Java_Programs_Basics.E_Strings">
+        <test-method signature="StringContains()[pri:0, instance:A_Java_Programs_Basics.E_Strings@7880cdf3]" started-at="2025-03-06T16:40:06 EST" name="StringContains" finished-at="2025-03-06T16:40:06 EST" duration-ms="16" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testing -->
-      </class> <!-- JavaPkg.interview -->
+        </test-method> <!-- StringContains -->
+      </class> <!-- A_Java_Programs_Basics.E_Strings -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
