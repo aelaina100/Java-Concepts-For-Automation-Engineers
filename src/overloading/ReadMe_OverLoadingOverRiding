@@ -1,0 +1,63 @@
+
+     ******* Pre-requisite: First, study the inheritance package before proceeding to this Overloading package. ******
+
+What's the difference between method overriding and method overloading ? Give an example on each.
+
+Method overloading:
+
+                                      [[ Calculator.java  class file]]:
+
+public class Calculator {
+
+    // Overloaded add method with two integer parameters
+    public int add(int a, int b) {
+        return a + b;
+    }
+
+    // Overloaded add method with three integer parameters
+    public int add(int a, int b, int c) {
+        return a + b + c;
+    }
+
+    // Overloaded add method with two double parameters
+    public double add(double a, double b) {
+        return a + b;
+    }
+
+    // Overloaded add method with an array of integers
+    public int add(int[] numbers) {
+        int sum = 0;
+        for (int number : numbers) {
+            sum += number;
+        }
+        return sum;
+    }
+}
+=====================  Here’s how you might use this overloaded add method in the Calculator class  =============================
+
+                                       [[ Main.java  class file]]:
+
+public class Main {
+    public static void main(String[] args) {
+        Calculator calculator = new Calculator();   // crucial: you inherit from calculator, only if you have methods in this class to use.
+
+        // Using add(int, int)
+        System.out.println("Sum of 2 and 3: " + calculator.add(2, 3));
+
+        // Using add(int, int, int)
+        System.out.println("Sum of 1, 2, and 3: " + calculator.add(1, 2, 3));
+
+        // Using add(double, double)
+        System.out.println("Sum of 1.5 and 2.5: " + calculator.add(1.5, 2.5));
+
+        // Using add(int[])
+        int[] numbers = {1, 2, 3, 4, 5};
+        System.out.println("Sum of array {1, 2, 3, 4, 5}: " + calculator.add(numbers));
+    }
+}
+================================================ Output======================================================================
+Sum of 2 and 3: 5
+Sum of 1, 2, and 3: 6
+Sum of 1.5 and 2.5: 4.0
+Sum of array {1, 2, 3, 4, 5}: 15
+

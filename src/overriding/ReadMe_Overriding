@@ -1,0 +1,6 @@
+            ******* Pre-requisite: First, study the inheritance package before proceeding to this overriding package. ******
+
+Overriding works when a class extends (inherits from) another class. Where,
+	-The parent class has a method. (that will be overriden !)
+	-The child class that extends it, has exactly the SAME EXACT method (The only difference is/are the line(s) of code implemented inside the method's brackets).
+	
