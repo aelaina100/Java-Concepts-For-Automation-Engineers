@@ -28,9 +28,10 @@ public class A_constructorDemo {
 	}
 }
 // So instead of initializing, and/or declaring a variable, and executing other line(s) of code inside the main()method,
-  // I choose to do so whenever I want by creating an object of the class. This is a very useful technique/ comes in handy.
+  // I choose to do so whenever I want by creating an object of the class that will automatically execute its respective constructor. 
+   // This is a very useful technique/ comes in handy.
 
 // An ambiguous note copied: 
 	// Now, for the same exact code if the constructor was not created, then upon executing the above line for the cd object,
       //compiler will call the default (implicit) constructor that is ALWAYS (by definition) exists in the Java library/ backend
-        // and will execute it.
+        // and will execute it.  [Meaning, whenever an object is created, some constructor will ALWAYS be executed, be it an implicit or explicit one.]

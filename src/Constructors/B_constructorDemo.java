@@ -5,7 +5,7 @@ public class B_constructorDemo {
 	
 	public B_constructorDemo()                // A constructor
 	{
-		System.out.println(" I am in the constructor");
+		System.out.println(" I am in the unparameterized constructor");
 	}
 	
 	

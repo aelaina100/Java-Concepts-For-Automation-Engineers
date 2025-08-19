@@ -1,0 +1,59 @@
+Only review this package after having finished reviewing 'Inheitance' & 'Inheritance_using_TestNG' packages.
+
+Assume we have the following two .java class files:
+
+********************** ps.java  whose content is:
+
+
+   public class ps {
+
+     public void doThis() 
+     {
+      System.out.println("I am here!");
+     }
+}
+
+
+ ********************** and ps2.java  whose content is:
+
+
+ public class ps2 extends ps {
+	
+	  @Test
+	   public void testRun()
+	     {
+	       doThis();
+	     }
+	     
+	     @BeforeMethod()
+	     public void statement()
+	     {
+	       System.out.println("run before each and every single method");
+	     }
+         
+	     
+	     @Test
+		   public void gladiator()
+		     {
+	    	 System.out.println("some method named gladiator");
+		     }
+
+      }
+
+// Now, it is a better idea to move the procedural methods (@Before/@After suite,class, method) + utilities that
+   are usually used for clean-up, tear-down, launch the browsers, maximize window (= do something before/after)
+   , use the calender, fetch/format the time etc. to its parent class that is inherited from, so that the child 
+   class that extends it focuses on the actual logic and actual functionality.
+   
+   This is especially true for visibility & organizational purposes (Ex: If the @Before/@After isn't in the
+   base (parent) class, then how will one locate it especially that you're going to have more than one child
+   class that extends it ?.
+   
+   Also, this is one important interview question: 
+   Question:
+   How does the original code (shown above in ps.java & ps2.java) compare to the one where the boiler plate
+   code (represented by the @After/ @Before methods) is moved to the base (parent) class ?
+   
+   Answer:
+   There should be no difference at all. Their execution should yield the same output (Try it for yourself
+   by running the .java classes situated under the package this file is under).
