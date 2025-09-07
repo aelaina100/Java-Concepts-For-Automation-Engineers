@@ -1,6 +1,6 @@
 package overriding;
 
-// Important, this class of     FInal_C  and also      Final_D   &     Final_E  are expressed in a different format (As compared to A_cat  & B_dog)
+// Important, this class of     Final_C  and also      Final_D   &     Final_E  are expressed in a different format (As compared to A_cat  & B_dog)
 // in order to explain, the overriding concept in Java. Hence, simply treat it as an interview question where you're presented with these 3 .java class files.
 
 

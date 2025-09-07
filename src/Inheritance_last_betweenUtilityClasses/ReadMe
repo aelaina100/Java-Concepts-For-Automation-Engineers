@@ -1,0 +1,17 @@
+This is the LAST inheritance package to review.
+Only review it after doing so for the last 3 Inheritance packages.
+
+
+Create a parent.java & a child.java class files.
+        - Both should be utility files (Non contain the main statement/ @Test annotation 
+                                        where the controller starts executing)
+                                        
+        - One will find out that:
+         	 no object creating is necessary of the child class in the child class in order
+         	 to access the method(s) present in the parent class.
+         	 
+       Now: This concept is demonstrated in real-time Selenium frameworks:----->> 
+       		Review under the PageFactory package:
+              		The 2 utility classes (Non contain the main/@TestNG annotation)
+              		of the parent AbstractPage.java that is extended by faceBookLoginPage.
+              
